@@ -21,6 +21,7 @@ Trabalho Prático 1 da disciplina **Desenvolvimento e Integração de Aplicaçõ
   - [Como Executar a Aplicação](#como-executar-a-aplicação)
 - [Deploy](#deploy)
 - [Estrutura de Pastas](#estrutura-de-pastas)
+- [Wireframes](#wireframes)
 - [Demonstração](#demonstração)
 - [Documentações utilizadas](#documentações-utilizadas)
 - [Autor](#autor)
@@ -187,6 +188,9 @@ Para publicar uma cópia do projeto:
 ├── package-lock.json            # Versões exatas das dependências instaladas.
 ├── vite.config.js               # Configuração do Vite com os plugins React e Tailwind.
 │
+├── docs/
+│   └── wireframes/              # Wireframes das versões desktop e celular.
+│
 ├── public/                      # Arquivos servidos como estão.
 │   ├── favicon-16.png           # Ícone da aba (16px).
 │   ├── favicon-32.png           # Ícone da aba (32px).
@@ -212,6 +216,17 @@ Para publicar uma cópia do projeto:
         ├── pt.json              # Conteúdo em português.
         └── en.json              # Conteúdo em inglês.
 ```
+
+---
+
+## Wireframes
+
+Wireframes de média fidelidade feitos no Figma, nas versões desktop (1280 px) e celular (390 px).
+
+<p>
+  <img src="docs/wireframes/wireframe-desktop.png" alt="Wireframe da versão desktop" width="560">
+  <img src="docs/wireframes/wireframe-celular.png" alt="Wireframe da versão celular" width="240">
+</p>
 
 ---
 
