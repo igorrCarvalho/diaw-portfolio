@@ -1,4 +1,4 @@
-# 🏷️ Portfólio Profissional · Igor Carvalho 👨‍💻
+# Portfólio Profissional · Igor Carvalho
 
 > [!NOTE]
 > Página única com a apresentação profissional de Igor Carvalho, desenvolvedor full stack. Mostra quem ele é, os projetos já feitos, a experiência profissional e um formulário de contato que envia mensagens por e-mail.
@@ -7,36 +7,35 @@ Trabalho Prático 1 da disciplina **Desenvolvimento e Integração de Aplicaçõ
 
 ---
 
-## 📚 Índice
-- [Links Úteis](#-links-úteis)
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades Principais](#-funcionalidades-principais)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-  - [Dependências e bibliotecas](#-dependências-e-bibliotecas)
-- [Arquitetura](#-arquitetura)
-- [Instalação e Execução](#-instalação-e-execução)
+## Índice
+- [Links Úteis](#links-úteis)
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Funcionalidades Principais](#funcionalidades-principais)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Dependências e bibliotecas](#dependências-e-bibliotecas)
+- [Arquitetura](#arquitetura)
+- [Instalação e Execução](#instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
-  - [Variáveis de Ambiente](#-variáveis-de-ambiente)
-  - [Instalação de Dependências](#-instalação-de-dependências)
-  - [Como Executar a Aplicação](#-como-executar-a-aplicação)
-- [Deploy](#-deploy)
-- [Estrutura de Pastas](#-estrutura-de-pastas)
-- [Demonstração](#-demonstração)
-- [Documentações utilizadas](#-documentações-utilizadas)
-- [Autor](#-autor)
+  - [Variáveis de Ambiente](#variáveis-de-ambiente)
+  - [Instalação de Dependências](#instalação-de-dependências)
+  - [Como Executar a Aplicação](#como-executar-a-aplicação)
+- [Deploy](#deploy)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Demonstração](#demonstração)
+- [Documentações utilizadas](#documentações-utilizadas)
+- [Autor](#autor)
 
 ---
 
-## 🔗 Links Úteis
-* 🌐 **Site publicado:** [diaw-portfolio.vercel.app](https://diaw-portfolio.vercel.app)
-  > 💻 **Descrição:** Versão em produção do portfólio, hospedada na Vercel.
-* 📂 **Repositório:** [github.com/igorrCarvalho/diaw-portfolio](https://github.com/igorrCarvalho/diaw-portfolio)
-  > 📚 **Descrição:** Código-fonte deste projeto no GitHub.
-* Wireframes no Figma: (link a adicionar)
+## Links Úteis
+* **Site publicado:** [diaw-portfolio.vercel.app](https://diaw-portfolio.vercel.app)
+  > **Descrição:** Versão em produção do portfólio, hospedada na Vercel.
+* **Repositório:** [github.com/igorrCarvalho/diaw-portfolio](https://github.com/igorrCarvalho/diaw-portfolio)
+  > **Descrição:** Código-fonte deste projeto no GitHub.
 
 ---
 
-## 📝 Sobre o Projeto
+## Sobre o Projeto
 O site é o portfólio profissional de Igor Carvalho e foi feito como Trabalho Prático 1 da disciplina de Desenvolvimento e Integração de Aplicações Web. O objetivo é apresentar o perfil profissional em uma página só, com linguagem clara, projetos reais e um canal de contato direto.
 
 O conteúdo fica separado da interface. Todos os textos estão em arquivos JSON, um para português e outro para inglês, o que facilita alterar o que é mostrado sem mexer nos componentes.
@@ -46,32 +45,32 @@ O conteúdo fica separado da interface. Todos os textos estão em arquivos JSON,
 
 ---
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 Página única com menu de navegação fixo no topo e quatro seções:
 
-- 👤 **Sobre mim:** apresentação em português ou inglês. O botão de idioma no cabeçalho troca todos os textos do site.
-- 🧭 **Projetos:** linha do tempo do mais antigo ao mais recente. Cada projeto tem nome, período, descrição, tecnologias, link para o GitHub (quando público), link para o site (quando existe) e imagem.
-- 💼 **Experiências:** formação e experiências profissionais em ordem cronológica.
-- 📨 **Contato:** ícones clicáveis para e-mail, GitHub e LinkedIn, e um formulário com nome, e-mail e mensagem. O formulário valida os campos antes de enviar e mostra o resultado do envio.
+- **Sobre mim:** apresentação em português ou inglês. O botão de idioma no cabeçalho troca todos os textos do site.
+- **Projetos:** linha do tempo do mais antigo ao mais recente. Cada projeto tem nome, período, descrição, tecnologias, link para o GitHub (quando público), link para o site (quando existe) e imagem.
+- **Experiências:** formação e experiências profissionais em ordem cronológica.
+- **Contato:** ícones clicáveis para e-mail, GitHub e LinkedIn, e um formulário com nome, e-mail e mensagem. O formulário valida os campos antes de enviar e mostra o resultado do envio.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 As versões abaixo são as indicadas no `package.json`.
 
-### 💻 Front-end
+### Front-end
 - **React 19:** biblioteca para construir a interface com componentes.
 - **Vite:** servidor de desenvolvimento e ferramenta de build.
 - **Tailwind CSS v4:** framework de CSS utilitário, integrado ao Vite pelo plugin `@tailwindcss/vite`.
 - **JavaScript (JSX):** linguagem usada em todo o projeto, sem TypeScript.
 - **ESLint 9:** análise estática do código.
 
-### ⚙️ Infraestrutura & DevOps
+### Infraestrutura & DevOps
 - **Vercel (plano gratuito):** hospedagem do site publicado.
 - **GitHub:** versionamento do código.
 
-### 📦 Dependências e bibliotecas
+### Dependências e bibliotecas
 
 | Pacote | Versão (`package.json`) | Para que serve |
 |--------|-------------------------|----------------|
@@ -89,7 +88,7 @@ As versões abaixo são as indicadas no `package.json`.
 
 ---
 
-## 🏗 Arquitetura
+## Arquitetura
 
 O projeto é uma aplicação React de página única, sem back-end.
 
@@ -101,7 +100,7 @@ O projeto é uma aplicação React de página única, sem back-end.
 
 ---
 
-## 🔧 Instalação e Execução
+## Instalação e Execução
 
 ### Pré-requisitos
 * **Node.js:** versão 22 ou superior
@@ -110,7 +109,7 @@ O projeto é uma aplicação React de página única, sem back-end.
 
 ---
 
-### 🔑 Variáveis de Ambiente
+### Variáveis de Ambiente
 
 O formulário de contato usa uma chave de acesso do Web3Forms. Para obter a sua, acesse [web3forms.com](https://web3forms.com) e informe o e-mail que vai receber as mensagens.
 
@@ -130,7 +129,7 @@ O arquivo `.env` não vai para o repositório, porque está no `.gitignore`. Sem
 
 ---
 
-### 📦 Instalação de Dependências
+### Instalação de Dependências
 
 1. **Clone o repositório:**
 
@@ -147,7 +146,7 @@ npm install
 
 ---
 
-### ⚡ Como Executar a Aplicação
+### Como Executar a Aplicação
 
 | Comando | O que faz |
 |---------|-----------|
@@ -158,7 +157,7 @@ npm install
 
 ---
 
-## 🚀 Deploy
+## Deploy
 
 O site está publicado na Vercel, no plano gratuito, em [diaw-portfolio.vercel.app](https://diaw-portfolio.vercel.app).
 
@@ -175,48 +174,48 @@ Para publicar uma cópia do projeto:
 
 ---
 
-## 📂 Estrutura de Pastas
+## Estrutura de Pastas
 
 ```
 .
-├── .env.example                 # 🧩 Modelo da variável de ambiente do formulário.
-├── .gitignore                   # 🧹 Arquivos que não vão para o repositório (.env, node_modules, dist).
-├── README.md                    # 📘 Documentação do projeto.
-├── eslint.config.js             # ✅ Configuração do ESLint.
-├── index.html                   # 🌐 Página HTML que carrega a aplicação React.
-├── package.json                 # 📦 Scripts e dependências do projeto.
-├── package-lock.json            # 🔒 Versões exatas das dependências instaladas.
-├── vite.config.js               # ⚙️ Configuração do Vite com os plugins React e Tailwind.
+├── .env.example                 # Modelo da variável de ambiente do formulário.
+├── .gitignore                   # Arquivos que não vão para o repositório (.env, node_modules, dist).
+├── README.md                    # Documentação do projeto.
+├── eslint.config.js             # Configuração do ESLint.
+├── index.html                   # Página HTML que carrega a aplicação React.
+├── package.json                 # Scripts e dependências do projeto.
+├── package-lock.json            # Versões exatas das dependências instaladas.
+├── vite.config.js               # Configuração do Vite com os plugins React e Tailwind.
 │
-├── public/                      # 📁 Arquivos servidos como estão.
-│   ├── favicon-16.png           # 🖼️ Ícone da aba (16px).
-│   ├── favicon-32.png           # 🖼️ Ícone da aba (32px).
+├── public/                      # Arquivos servidos como estão.
+│   ├── favicon-16.png           # Ícone da aba (16px).
+│   ├── favicon-32.png           # Ícone da aba (32px).
 │   ├── fonts/
-│   │   └── inter-latin.woff2    # 🔤 Fonte Inter, usada no site.
-│   └── projects/                # 🖼️ Imagens dos projetos na seção Projetos.
+│   │   └── inter-latin.woff2    # Fonte Inter, usada no site.
+│   └── projects/                # Imagens dos projetos na seção Projetos.
 │
-└── src/                         # 📁 Código-fonte da aplicação.
-    ├── main.jsx                 # 🚀 Ponto de entrada que monta o React na página.
-    ├── App.jsx                  # 🧭 Componente principal: idioma, cabeçalho e seções.
-    ├── index.css                # 🎨 Estilos globais, fonte e cores do tema.
-    ├── components/              # 🧩 Componentes de cada seção e elementos da interface.
-    │   ├── About.jsx            # 👤 Seção Sobre mim.
-    │   ├── Projects.jsx         # 🧭 Seção Projetos (linha do tempo).
-    │   ├── Experience.jsx       # 💼 Seção Experiências.
-    │   ├── Contact.jsx          # 📨 Seção Contato, com ícones e formulário.
-    │   ├── ContactForm.jsx      # ✉️ Formulário de contato e envio pelo Web3Forms.
-    │   ├── Header.jsx           # 📌 Cabeçalho fixo com menu e botão de idioma.
-    │   ├── Footer.jsx           # 🔚 Rodapé.
-    │   ├── Icon.jsx             # 🔣 Ícones de e-mail, GitHub e LinkedIn.
-    │   └── SectionTitle.jsx     # 🏷️ Título padrão das seções.
-    └── content/                 # 📝 Textos do site.
-        ├── pt.json              # 🇧🇷 Conteúdo em português.
-        └── en.json              # 🇺🇸 Conteúdo em inglês.
+└── src/                         # Código-fonte da aplicação.
+    ├── main.jsx                 # Ponto de entrada que monta o React na página.
+    ├── App.jsx                  # Componente principal: idioma, cabeçalho e seções.
+    ├── index.css                # Estilos globais, fonte e cores do tema.
+    ├── components/              # Componentes de cada seção e elementos da interface.
+    │   ├── About.jsx            # Seção Sobre mim.
+    │   ├── Projects.jsx         # Seção Projetos (linha do tempo).
+    │   ├── Experience.jsx       # Seção Experiências.
+    │   ├── Contact.jsx          # Seção Contato, com ícones e formulário.
+    │   ├── ContactForm.jsx      # Formulário de contato e envio pelo Web3Forms.
+    │   ├── Header.jsx           # Cabeçalho fixo com menu e botão de idioma.
+    │   ├── Footer.jsx           # Rodapé.
+    │   ├── Icon.jsx             # Ícones de e-mail, GitHub e LinkedIn.
+    │   └── SectionTitle.jsx     # Título padrão das seções.
+    └── content/                 # Textos do site.
+        ├── pt.json              # Conteúdo em português.
+        └── en.json              # Conteúdo em inglês.
 ```
 
 ---
 
-## 🎥 Demonstração
+## Demonstração
 
 Visão geral da página inicial publicada:
 
@@ -224,17 +223,17 @@ Visão geral da página inicial publicada:
 
 ---
 
-## 🔗 Documentações utilizadas
+## Documentações utilizadas
 
-* 📖 **Biblioteca (Front-end):** [Documentação oficial do **React**](https://react.dev/reference/react)
-* 📖 **Build Tool:** [Guia de configuração do **Vite**](https://vite.dev/config/)
-* 📖 **Estilos:** [Documentação do **Tailwind CSS**](https://tailwindcss.com/docs)
-* 📖 **Formulário:** [Documentação da API do **Web3Forms**](https://web3forms.com/)
-* 📖 **Hospedagem:** [Documentação da **Vercel**](https://vercel.com/docs)
+* **Biblioteca (Front-end):** [Documentação oficial do **React**](https://react.dev/reference/react)
+* **Build Tool:** [Guia de configuração do **Vite**](https://vite.dev/config/)
+* **Estilos:** [Documentação do **Tailwind CSS**](https://tailwindcss.com/docs)
+* **Formulário:** [Documentação da API do **Web3Forms**](https://web3forms.com/)
+* **Hospedagem:** [Documentação da **Vercel**](https://vercel.com/docs)
 
 ---
 
-## 👥 Autor
-* 👤 **Nome:** Igor Costa Carvalho Campos Silva
-* :octocat: **GitHub:** [igorrCarvalho](https://github.com/igorrCarvalho)
-* 💼 **LinkedIn:** [dev-igor-carvalho](https://linkedin.com/in/dev-igor-carvalho)
+## Autor
+* **Nome:** Igor Costa Carvalho Campos Silva
+* **GitHub:** [igorrCarvalho](https://github.com/igorrCarvalho)
+* **LinkedIn:** [dev-igor-carvalho](https://linkedin.com/in/dev-igor-carvalho)
