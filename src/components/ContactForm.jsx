@@ -10,33 +10,33 @@ export function ContactForm({ form }) {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   const [status, setStatus] = useState('idle')
-  const [feedback, setFeedback] = useState('')
+  const [feedbackKey, setFeedbackKey] = useState('')
 
-  function showError(text) {
+  function showError(key) {
     setStatus('error')
-    setFeedback(text)
+    setFeedbackKey(key)
   }
 
   async function handleSubmit(event) {
     event.preventDefault()
 
     if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
-      showError(form.required)
+      showError('required')
       return
     }
     if (!emailPattern.test(email.trim())) {
-      showError(form.invalidEmail)
+      showError('invalidEmail')
       return
     }
 
     const accessKey = import.meta.env.VITE_WEB3FORMS_KEY
     if (!accessKey) {
-      showError(form.error)
+      showError('error')
       return
     }
 
     setStatus('sending')
-    setFeedback('')
+    setFeedbackKey('')
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
@@ -52,23 +52,28 @@ export function ContactForm({ form }) {
       const result = await response.json()
 
       if (!response.ok || !result.success) {
-        showError(form.error)
+        showError('error')
         return
       }
 
       setStatus('success')
-      setFeedback(form.success)
+      setFeedbackKey('success')
       setName('')
       setEmail('')
       setMessage('')
     } catch {
-      showError(form.error)
+      showError('error')
     }
   }
 
   let buttonText = form.send
   if (status === 'sending') {
     buttonText = form.sending
+  }
+
+  let feedback = ''
+  if (feedbackKey !== '') {
+    feedback = form[feedbackKey]
   }
 
   let feedbackClass = 'text-sm text-[#ff9a9a]'
