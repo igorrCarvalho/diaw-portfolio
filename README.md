@@ -29,7 +29,7 @@ Trabalho Prático 1 da disciplina **Desenvolvimento e Integração de Aplicaçõ
 ---
 
 ## Links Úteis
-* **Site publicado:** [diaw-portfolio.vercel.app](https://diaw-portfolio.vercel.app)
+* **Site publicado:** [portfoliodiaw.igornolasco.dev](https://portfoliodiaw.igornolasco.dev)
   > **Descrição:** Versão em produção do portfólio, hospedada na Vercel.
 * **Repositório:** [github.com/igorrCarvalho/diaw-portfolio](https://github.com/igorrCarvalho/diaw-portfolio)
   > **Descrição:** Código-fonte deste projeto no GitHub.
@@ -160,7 +160,7 @@ npm install
 
 ## Deploy
 
-O site está publicado na Vercel, no plano gratuito, em [diaw-portfolio.vercel.app](https://diaw-portfolio.vercel.app).
+O site está publicado na Vercel, no plano gratuito, em [portfoliodiaw.igornolasco.dev](https://portfoliodiaw.igornolasco.dev).
 
 Para publicar uma cópia do projeto:
 
