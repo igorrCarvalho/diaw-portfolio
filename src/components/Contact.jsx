@@ -28,7 +28,7 @@ export function Contact({ contact }) {
   const mailto = 'mailto:' + contact.email.user + '@' + contact.email.domain
 
   return (
-    <section id="contato" aria-labelledby="contato-titulo" className="py-16">
+    <section id="contato" aria-labelledby="contato-titulo" className="reveal py-16">
       <SectionTitle id="contato-titulo">{contact.title}</SectionTitle>
       <p className="mb-6 text-[#c9c6da]">{contact.text}</p>
       <div className="mb-10 flex gap-3">

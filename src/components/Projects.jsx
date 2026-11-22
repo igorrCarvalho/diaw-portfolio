@@ -22,7 +22,7 @@ function ProjectLinks({ item, repoLabel, siteLabel }) {
 
 function ProjectItem({ item, repoLabel, siteLabel }) {
   return (
-    <li className="relative">
+    <li className="reveal relative">
       <span className="absolute -left-[29px] top-2 h-2 w-2 rounded-full bg-violet" aria-hidden="true" />
       <p className="text-sm text-muted">{item.period}</p>
       <h3 className="text-lg font-semibold tracking-tight text-ink">{item.name}</h3>
