@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "about": "About me",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "languageSwitch": "Português",
+  "about": {
+    "title": "About me",
+    "name": "Igor Carvalho",
+    "role": "Full Stack Developer",
+    "location": "Belo Horizonte, Minas Gerais, Brazil",
+    "paragraphs": [
+      "I am a full stack developer and a Software Engineering student at PUC Minas. Before university, I completed Trybe's 1,500-hour full stack program.",
+      "Today I build production features with React and Laravel for a platform used by over 10,000 users. Before that, I worked on Langflow, an open source platform for building LLM-based applications and agents.",
+      "I am interested in artificial intelligence applied to products, in web application performance and in astronomy, which tends to show up in my personal projects.",
+      "My goal is to grow as a software engineer working on products that use AI to solve real problems."
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "A timeline of my projects, from the oldest to the most recent.",
+    "repoLabel": "GitHub repository",
+    "siteLabel": "View site",
+    "items": [
+      {
+        "name": "Langflow",
+        "period": "2023 – 2024",
+        "description": "Open source platform for building applications and agents with LLMs. I worked on the Python components built on LangChain and on the React interface, including building the flow vertices in parallel.",
+        "tech": ["Python", "LangChain", "React", "TypeScript"],
+        "repo": "https://github.com/langflow-ai/langflow",
+        "image": "/projects/langflow.png",
+        "imageAlt": "Langflow flow editor"
+      },
+      {
+        "name": "D.O.S.E",
+        "period": "2026",
+        "description": "Inventory management system for small pharmacies, with stock in and out control, best-selling items and restocking support. Interdisciplinary group project at PUC Minas.",
+        "tech": ["HTML", "CSS", "JavaScript", "JSON Server"],
+        "repo": "https://github.com/igorrCarvalho/DOSE",
+        "image": "/projects/dose.png",
+        "imageAlt": "Product lookup screen of D.O.S.E"
+      },
+      {
+        "name": "Antares",
+        "period": "2026",
+        "description": "Space combat game inspired by Space Invaders. It has a black hole that pulls the ship with gravitational force and a logic circuit minigame to repair the ship between levels.",
+        "tech": ["Python", "Pygame"],
+        "repo": "https://github.com/igorrCarvalho/Antares",
+        "image": "/projects/antares.png",
+        "imageAlt": "Ship repair screen in the Antares game"
+      },
+      {
+        "name": "Personal portfolio",
+        "period": "2026",
+        "description": "My main portfolio, with a 3D black hole drawn by shaders. As the page scrolls, the camera moves closer to the black hole and the texts come into view. The repository is private.",
+        "tech": ["React", "TypeScript", "Three.js", "GLSL", "Tailwind CSS"],
+        "repo": null,
+        "site": "https://igornolasco.dev",
+        "image": "/projects/portfolio.jpg",
+        "imageAlt": "Black hole with a violet accretion disk in the personal portfolio"
+      },
+      {
+        "name": "This site",
+        "period": "2026",
+        "description": "Portfolio built for the Web Application Development and Integration course. It is a single page in React with Vite and Tailwind CSS. The texts live in two JSON files, one per language, and the contact form sends the message by email through the Web3Forms service. It is hosted on Vercel.",
+        "tech": ["React", "Vite", "Tailwind CSS", "Web3Forms", "Vercel"],
+        "repo": "https://github.com/igorrCarvalho/diaw-portfolio",
+        "image": "/projects/este-site.png",
+        "imageAlt": "Home page of this portfolio"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      { "when": "07/2022 – 07/2023", "role": "Bootcamp", "org": "Trybe", "description": "1,500-hour full stack training program." },
+      { "when": "06/2023 – 08/2024", "role": "Full Stack Developer", "org": "Langflow · DataStax", "description": "Python components on LangChain and React interfaces for an open source AI platform with over 150k GitHub stars." },
+      { "when": "12/2024 – Present", "role": "Full Stack Developer", "org": "Gopage", "description": "Production features with React and Laravel for over 10k users: REST APIs, analytics dashboards and large-scale image processing." },
+      { "when": "2026 – 2029", "role": "Software Engineering", "org": "PUC Minas", "description": "Bachelor's degree, in progress." },
+      { "when": "2026 – Present", "role": "Founding member", "org": "Software Engineering Junior Enterprise · PUC Minas", "description": "Structuring the technology, marketing and administration areas since the company's founding." },
+      { "when": "2026 – Present", "role": "Full Stack Developer", "org": "Grade Inteligente · PUC Minas", "description": "Rewriting the course planning tool used by PUC Minas students in React and React Flow." }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Reach me through one of the channels below or send a message using the form.",
+    "email": { "label": "Email", "user": "igorsilvabhz6", "domain": "gmail.com" },
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/igorrCarvalho", "icon": "github" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/dev-igor-carvalho", "icon": "linkedin" }
+    ],
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent. Thanks for reaching out!",
+      "error": "The message could not be sent. Please try again later.",
+      "required": "Fill in all fields.",
+      "invalidEmail": "Enter a valid email."
+    }
+  },
+  "footer": "Made by Igor Carvalho for the Web Application Development and Integration course, PUC Minas."
+}

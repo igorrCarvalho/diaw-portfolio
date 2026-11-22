@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "experience": "Experiências",
+    "contact": "Contato"
+  },
+  "languageSwitch": "English",
+  "about": {
+    "title": "Sobre mim",
+    "name": "Igor Carvalho",
+    "role": "Desenvolvedor Full Stack",
+    "location": "Belo Horizonte, Minas Gerais",
+    "paragraphs": [
+      "Sou desenvolvedor full stack e estudante de Engenharia de Software na PUC Minas. Antes da faculdade, fiz a formação full stack de 1500 horas da Trybe.",
+      "Hoje construo features em produção com React e Laravel para uma plataforma usada por mais de 10 mil usuários. Antes disso, trabalhei no Langflow, plataforma open source para construir aplicações e agentes baseados em LLMs.",
+      "Tenho interesse em inteligência artificial aplicada a produtos, em desempenho de aplicações web e em astronomia, que acaba aparecendo nos meus projetos pessoais.",
+      "Meu objetivo é crescer como engenheiro de software trabalhando em produtos que usam IA para resolver problemas reais."
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "intro": "Linha do tempo dos meus projetos, do mais antigo ao mais recente.",
+    "repoLabel": "Repositório no GitHub",
+    "siteLabel": "Ver site",
+    "items": [
+      {
+        "name": "Langflow",
+        "period": "2023 – 2024",
+        "description": "Plataforma open source para construir aplicações e agentes com LLMs. Trabalhei nos componentes em Python sobre LangChain e na interface em React, incluindo a construção em paralelo dos vértices dos fluxos.",
+        "tech": ["Python", "LangChain", "React", "TypeScript"],
+        "repo": "https://github.com/langflow-ai/langflow",
+        "image": "/projects/langflow.png",
+        "imageAlt": "Editor de fluxos do Langflow"
+      },
+      {
+        "name": "D.O.S.E",
+        "period": "2026",
+        "description": "Sistema de gestão de estoque para pequenas farmácias, com controle de entradas e saídas, itens mais vendidos e apoio à reposição. Trabalho interdisciplinar em grupo na PUC Minas.",
+        "tech": ["HTML", "CSS", "JavaScript", "JSON Server"],
+        "repo": "https://github.com/igorrCarvalho/DOSE",
+        "image": "/projects/dose.png",
+        "imageAlt": "Tela de consulta de produtos do D.O.S.E"
+      },
+      {
+        "name": "Antares",
+        "period": "2026",
+        "description": "Jogo de combate espacial inspirado em Space Invaders. Tem um buraco negro que atrai a nave com força gravitacional e um minijogo de circuitos lógicos para reparar a nave entre as fases.",
+        "tech": ["Python", "Pygame"],
+        "repo": "https://github.com/igorrCarvalho/Antares",
+        "image": "/projects/antares.png",
+        "imageAlt": "Tela de reparo da nave no jogo Antares"
+      },
+      {
+        "name": "Portfólio pessoal",
+        "period": "2026",
+        "description": "Meu portfólio principal, com um buraco negro em 3D desenhado por shaders. Conforme a página rola, a câmera se aproxima do buraco negro e os textos entram em cena. O repositório é privado.",
+        "tech": ["React", "TypeScript", "Three.js", "GLSL", "Tailwind CSS"],
+        "repo": null,
+        "site": "https://igornolasco.dev",
+        "image": "/projects/portfolio.jpg",
+        "imageAlt": "Buraco negro com disco de acreção violeta no portfólio pessoal"
+      },
+      {
+        "name": "Este site",
+        "period": "2026",
+        "description": "Portfólio feito para a disciplina de Desenvolvimento e Integração de Aplicações Web. É uma página única em React com Vite e Tailwind CSS. Os textos ficam em dois arquivos JSON, um por idioma, e o formulário de contato envia a mensagem por e-mail usando o serviço Web3Forms. Está hospedado na Vercel.",
+        "tech": ["React", "Vite", "Tailwind CSS", "Web3Forms", "Vercel"],
+        "repo": "https://github.com/igorrCarvalho/diaw-portfolio",
+        "image": "/projects/este-site.png",
+        "imageAlt": "Página inicial deste portfólio"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiências",
+    "items": [
+      { "when": "07/2022 – 07/2023", "role": "Bootcamp", "org": "Trybe", "description": "Formação full stack de 1500 horas." },
+      { "when": "06/2023 – 08/2024", "role": "Desenvolvedor Full Stack", "org": "Langflow · DataStax", "description": "Componentes em Python sobre LangChain e interfaces em React para uma plataforma open source de IA com mais de 150 mil estrelas no GitHub." },
+      { "when": "12/2024 – Atual", "role": "Desenvolvedor Full Stack", "org": "Gopage", "description": "Features em produção com React e Laravel para mais de 10 mil usuários: APIs REST, dashboards de analytics e processamento de imagens em larga escala." },
+      { "when": "2026 – 2029", "role": "Engenharia de Software", "org": "PUC Minas", "description": "Bacharelado, em andamento." },
+      { "when": "2026 – Atual", "role": "Membro fundador", "org": "Empresa Júnior de Engenharia de Software · PUC Minas", "description": "Estruturando as áreas de tecnologia, marketing e administrativo desde a fundação da empresa." },
+      { "when": "2026 – Atual", "role": "Desenvolvedor Full Stack", "org": "Grade Inteligente · PUC Minas", "description": "Reescrevendo em React e React Flow a ferramenta de planejamento de grade usada pelos alunos da PUC Minas." }
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "text": "Me chame por um dos canais abaixo ou envie uma mensagem pelo formulário.",
+    "email": { "label": "E-mail", "user": "igorsilvabhz6", "domain": "gmail.com" },
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/igorrCarvalho", "icon": "github" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/dev-igor-carvalho", "icon": "linkedin" }
+    ],
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "send": "Enviar",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada. Obrigado pelo contato!",
+      "error": "Não foi possível enviar a mensagem. Tente de novo mais tarde.",
+      "required": "Preencha todos os campos.",
+      "invalidEmail": "Informe um e-mail válido."
+    }
+  },
+  "footer": "Feito por Igor Carvalho para a disciplina de Desenvolvimento e Integração de Aplicações Web, PUC Minas."
+}
