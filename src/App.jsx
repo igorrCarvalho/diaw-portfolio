@@ -3,6 +3,7 @@ import pt from './content/pt.json'
 import en from './content/en.json'
 import { Header } from './components/Header.jsx'
 import { About } from './components/About.jsx'
+import { Projects } from './components/Projects.jsx'
 import { Experience } from './components/Experience.jsx'
 import { Footer } from './components/Footer.jsx'
 
@@ -36,6 +37,7 @@ export function App() {
       />
       <main className="mx-auto w-full max-w-[880px] px-5 pt-32 sm:pt-28">
         <About about={content.about} />
+        <Projects projects={content.projects} />
         <Experience experience={content.experience} />
       </main>
       <Footer text={content.footer} />
