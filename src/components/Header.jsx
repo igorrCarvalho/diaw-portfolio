@@ -6,7 +6,7 @@ const buttonClass =
 
 export function Header({ name, nav, languageSwitch, onToggleLanguage }) {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-ink/10 bg-void/85 backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-ink/10 bg-void/55 backdrop-blur-xl backdrop-saturate-150">
       <div className="mx-auto flex w-full max-w-[880px] flex-wrap items-center justify-between gap-x-6 gap-y-2 px-5 py-3">
         <a href="#sobre" className="font-semibold tracking-tight text-ink hover:text-violet focus-visible:text-violet focus-visible:outline-none">
           {name}
