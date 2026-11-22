@@ -1,5 +1,6 @@
 import { SectionTitle } from './SectionTitle.jsx'
 import { Icon } from './Icon.jsx'
+import { ContactForm } from './ContactForm.jsx'
 
 function IconLink({ href, label, icon, external }) {
   let target
@@ -36,6 +37,7 @@ export function Contact({ contact }) {
           <IconLink key={link.label} href={link.href} label={link.label} icon={link.icon} external={true} />
         ))}
       </div>
+      <ContactForm form={contact.form} />
     </section>
   )
 }
